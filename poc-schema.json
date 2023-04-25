@@ -1,0 +1,63 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "EOL and EOS Product",
+  "description": "A standard schema for representing End-of-Life (EOL) and End-of-Support (EOS) product information",
+  "type": "object",
+  "properties": {
+    "supplierId": {
+      "description": "The unique identifier for the supplier",
+      "type": "string"
+    },
+    "supplierName": {
+      "description": "The name of the supplier",
+      "type": "string"
+    },
+    "productId": {
+      "description": "The unique product identifier",
+      "type": "string"
+    },
+    "productName": {
+      "description": "The name of the product",
+      "type": "string"
+    },
+    "productVersion": {
+      "description": "The version or release of the product",
+      "type": "string"
+    },
+    "EOLNotificationDate": {
+      "description": "The date on which the end of life notification is issued",
+      "type": "string",
+      "format": "date"
+    },
+    "EOSDate": {
+      "description": "The date after which the product is no longer offered for sale",
+      "type": "string",
+      "format": "date"
+    },
+    "LDOSDate": {
+      "description": "The last date to receive support as entitled by active service contracts",
+      "type": "string",
+      "format": "date"
+    },
+    "replacementProduct": {
+      "description": "Information about the recommended replacement product, if applicable",
+      "type": "object",
+      "properties": {
+        "productId": {
+          "description": "The unique product identifier of the replacement product",
+          "type": "string"
+        },
+        "productName": {
+          "description": "The name of the replacement product",
+          "type": "string"
+        },
+        "productVersion": {
+          "description": "The version or release of the replacement product",
+          "type": "string"
+        }
+      },
+      "required": ["productId", "productName", "productVersion"]
+    }
+  },
+  "required": ["supplierId", "supplierName", "productId", "productName", "productVersion", "EOLNotificationDate", "EOSDate", "LDOSDate"]
+}
