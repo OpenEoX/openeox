@@ -1,63 +1,35 @@
 {
-  "$schema": "https://json-schema.org/draft/2020-12/schema",
-  "title": "EOL and EOS Product",
-  "description": "A standard schema for representing End-of-Life (EOL) and End-of-Support (EOS) product information",
+  "$id": "https://openplf.org/eol-eos-schema.json",
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "title": "EOL and EOS Information",
   "type": "object",
   "properties": {
-    "supplierId": {
-      "description": "The unique identifier for the supplier",
-      "type": "string"
-    },
     "supplierName": {
-      "description": "The name of the supplier",
-      "type": "string"
+      "type": "string",
+      "description": "The name of the supplier or service provider"
     },
-    "productId": {
-      "description": "The unique product identifier",
-      "type": "string"
+    "supplierID": {
+      "type": "string",
+      "description": "A unique identifier for the supplier or service provider"
     },
     "productName": {
-      "description": "The name of the product",
-      "type": "string"
-    },
-    "productVersion": {
-      "description": "The version or release of the product",
-      "type": "string"
-    },
-    "EOLNotificationDate": {
-      "description": "The date on which the end of life notification is issued",
       "type": "string",
-      "format": "date"
+      "description": "The name of the product"
+    },
+    "productID": {
+      "type": "string",
+      "description": "A globally unique identifier for the product"
+    },
+    "EOLDate": {
+      "type": "string",
+      "format": "date",
+      "description": "The end-of-life date for the product"
     },
     "EOSDate": {
-      "description": "The date after which the product is no longer offered for sale",
       "type": "string",
-      "format": "date"
-    },
-    "LDOSDate": {
-      "description": "The last date to receive support as entitled by active service contracts",
-      "type": "string",
-      "format": "date"
-    },
-    "replacementProduct": {
-      "description": "Information about the recommended replacement product, if applicable",
-      "type": "object",
-      "properties": {
-        "productId": {
-          "description": "The unique product identifier of the replacement product",
-          "type": "string"
-        },
-        "productName": {
-          "description": "The name of the replacement product",
-          "type": "string"
-        },
-        "productVersion": {
-          "description": "The version or release of the replacement product",
-          "type": "string"
-        }
-      },
-      "required": ["productId", "productName", "productVersion"]
+      "format": "date",
+      "description": "The end-of-support date for the product"
     }
   },
-  "required": ["supplierId", "supplierName", "productId", "productName", "productVersion", "EOLNotificationDate", "EOSDate", "LDOSDate"]
+  "required": ["supplierName", "supplierID", "productName", "productID", "EOLDate", "EOSDate"]
 }
