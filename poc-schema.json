@@ -29,6 +29,11 @@
       "type": "string",
       "format": "date",
       "description": "The end-of-support date for the product"
+    },
+    "creationTimestamp": {
+      "type": "string",
+      "format": "date-time",
+      "description": "The timestamp when the EOL and EOS record was created"
     }
   },
   "required": ["supplierName", "supplierID", "productName", "productID", "EOLDate", "EOSDate"]
