@@ -7,14 +7,14 @@ NOTE: Read the [initial article](https://becomingahacker.org/establishing-standa
 Below is an example JSON object conforming to the EOL and EOS Product JSON schema:
 ```
 {
+  "$schema": "https://openplf.org/eol-eos-schema-0.2.0.json",
+  "creationTimestamp": "2023-05-02T01:27:00Z"
+  "EOLDate": "2023-06-01T23:59:59Z",
   "supplierId": "123456",
   "supplierName": "ExampleSupplier",
   "productId": "PID12345",
   "productName": "ExampleProduct",
   "productVersion": "1.0",
-  "EOLNotificationDate": "2023-01-01",
-  "EOSDate": "2023-06-01",
-  "LDOSDate": "2028-06-01",
   "replacementProduct": {
     "productId": "P67890",
     "productName": "ExampleReplacementProduct",
