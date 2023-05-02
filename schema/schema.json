@@ -27,7 +27,7 @@
       "title": "EOL and EOS schema",
       "description": "Specifies the schema the JSON object must be valid against.",
       "type": "string",
-      "enum": ["https://openplf.org/eol-eos-schema-0.2.0.json"]
+      "enum": ["https://openplf.org/schema-0.2.0.json"]
     }
   },
   "required": ["$schema", "supplierId", "supplierName", "productId", "productName", "productVersion", "EOLDate"],
