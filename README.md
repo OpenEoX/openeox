@@ -1,5 +1,5 @@
-# A Proof-of-Concept Standardized End-of-Life (EOL) and End-of-Support (EOS) Specification for Software and Hardware
-This GitHub repository has been created to start the discussion of a potential "standardized" [End-of-Life (EOL) and End-of-Support (EOS) JSON schema](poc-schema.json). This schema can serve as a proof-of-concept example to initiate conversations around standardizing the representation of EOL and EOS product information. The schema is designed to be flexible and can be extended or modified to accommodate the needs of different stakeholders, including software providers, vendors, suppliers, and open-source maintainers.
+# Open Product Lifecycle Framework (OPLF)
+This GitHub repository has been created to start the creation of a potential "standardized" [End-of-Life (EOL) and End-of-Support (EOS) JSON schema](poc-schema.json). This schema can serve as a proof-of-concept example to initiate conversations around standardizing the representation of EOL and EOS product information. The schema is designed to be flexible and can be extended or modified to accommodate the needs of different stakeholders, including software providers, vendors, suppliers, and open-source maintainers.
 
 NOTE: Read the [initial article](https://becomingahacker.org/establishing-standardized-end-of-life-and-end-of-support-programs-for-software-and-hardware-e3e231898e02) for more background.
 
