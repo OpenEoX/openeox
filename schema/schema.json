@@ -1,6 +1,6 @@
 {
   "$schema": "https://json-schema.org/draft/2020-12/schema",
-  "$id": "https://openplf.org/eol-eos-schema-0.2.0.json",
+  "$id": "https://openplf.org/schema-0.2.0.json",
   "title": "EOL and EOS Information",
   "description": "A standard schema for representing End-of-Life (EOL) and End-of-Support (EOS) information",
   "type": "object",
