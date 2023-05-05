@@ -41,6 +41,6 @@ The following properties are required:
 
     - **productName**: Contains the name of the replacement product. It is a string with a minimum length of 1 character and references the `productName_t` definition.
     
-    - **productVersion**: Contains the version or release information of the replacement product. It is a string with a minimum length of 1 character and references the `productVersion_t` definition.
+    - **productVersion**: Contains the version or release information of the product. It is a string with a minimum length of 1 character and references the `productVersion_t` definition. This SHALL not contain a version range.
 
 These properties together allow for a complete and standardized representation of End-of-Life (EOL) and End-of-Support (EOS) information for products.
