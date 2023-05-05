@@ -20,7 +20,7 @@ The following properties are required:
 
 2. **creationTimestamp**: This property represents the timestamp when the record was created. The timestamp must follow the RFC 3339 standard for date-time formatting. For example: `"2023-05-01T12:00:00Z"`. The usage of the separator `T` and the timezone identifier is mandatory.
 
-3. **EOLDate**: This property contains the End of Life (EOL) date of the product, indicating the date after which the product is no longer produced or maintained. The value can either be a date-time format following the RFC 3339 standard or the string "tba" (To Be Announced) if the EOL date is not yet determined.
+3. **EOLDate**: This property contains the End of Life (EOL) date of the product, indicating the date after which the product is no longer produced or maintained. The value can either be a date-time format following the RFC 3339 standard or the string "tba" (To Be Announced) if the EOL date is not yet determined or announced.
 
 4. **supplierId**: This property contains a unique identifier for the supplier or service provider. It is a string with a minimum length of 1 character.
 
