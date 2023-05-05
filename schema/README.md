@@ -37,7 +37,8 @@ The following properties are required:
 9. **replacementProduct**: This property contains information about the recommended replacement product, if applicable. It is an object with the following required properties:
 
     - **productId**: Contains the unique product identifier for the replacement product. It is a string with a minimum length of 1 character and references the `productId_t` definition.
-    
+    *Note: The exact usage and proper identifying method of this field is currently under discussion in the community (see #22). If you have an SBOM that you provide for download at a specific link and that one is stable, the download URL could be used as identifier.*
+
     - **productName**: Contains the name of the replacement product. It is a string with a minimum length of 1 character and references the `productName_t` definition.
     
     - **productVersion**: Contains the version or release information of the replacement product. It is a string with a minimum length of 1 character and references the `productVersion_t` definition.
