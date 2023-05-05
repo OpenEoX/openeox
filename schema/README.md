@@ -32,7 +32,7 @@ The following properties are required:
 
 7. **productName**: This property contains the name of the product. It is a string with a minimum length of 1 character and references the `productName_t` definition.
 
-8. **productVersion**: This property contains the version or release information of the product. It is a string with a minimum length of 1 character and references the `productVersion_t` definition.
+8. **productVersion**: This property contains the version or release information of the product. It is a string with a minimum length of 1 character and references the `productVersion_t` definition. This SHALL not contain a version range.
 
 9. **replacementProduct**: This property contains information about the recommended replacement product, if applicable. It is an object with the following required properties:
 
