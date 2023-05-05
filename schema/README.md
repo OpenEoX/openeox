@@ -16,7 +16,7 @@ The following properties are required:
 
 ## Explanation of Schema Properties
 
-1. **$schema**: This property references the schema definition (`schema_t`) and specifies the schema against which the JSON object must be validated. The valid value for this property is `"https://openplf.org/eol-eos-schema-0.2.0.json"`.
+1. **$schema**: This property references the schema definition (`schema_t`) and specifies the schema against which the JSON object must be validated. The valid value for this property is `"https://openplf.org/schema-0.2.0.json"`.
 
 2. **creationTimestamp**: This property represents the timestamp when the record was created. The timestamp must follow the RFC 3339 standard for date-time formatting. For example: `"2023-05-01T12:00:00Z"`.
 
