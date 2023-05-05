@@ -23,6 +23,7 @@ The following properties are required:
 3. **EOLDate**: This property contains the End of Life (EOL) date of the product, indicating the date after which the product is no longer produced or maintained. The value can either be a date-time format following the RFC 3339 standard or the string "tba" (To Be Announced) if the EOL date is not yet determined or announced.
 
 4. **supplierId**: This property contains a unique identifier for the supplier or service provider. It is a string with a minimum length of 1 character.
+*Note: The exact usage and proper identifying method of this field is currently under discussion in the community (see #6). As a [CSAF](https://docs.oasis-open.org/csaf/csaf/v2.0/csaf-v2.0.html) issuing party, you could use the value `/document/publisher/namespace`.*
 
 5. **supplierName**: This property contains the name of the supplier or service provider. It is a string with a minimum length of 1 character.
 
