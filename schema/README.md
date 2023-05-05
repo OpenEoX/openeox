@@ -28,6 +28,7 @@ The following properties are required:
 5. **supplierName**: This property contains the name of the supplier or service provider. It is a string with a minimum length of 1 character.
 
 6. **productId**: This property contains the unique product identifier for the product. It is a string with a minimum length of 1 character and references the `productId_t` definition.
+*Note: The exact usage and proper identifying method of this field is currently under discussion in the community (see #22). If you have an SBOM that you provide for download at a specific link and that one is stable, the download URL could be used as identifier.*
 
 7. **productName**: This property contains the name of the product. It is a string with a minimum length of 1 character and references the `productName_t` definition.
 
