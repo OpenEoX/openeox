@@ -1,6 +1,6 @@
 {
   "$schema": "https://json-schema.org/draft/2020-12/schema",
-  "$id": "https://openplf.org/schema-0.2.0.json",
+  "$id": "https://openeox.org/schema-0.2.0.json",
   "title": "EOL and EOS Information",
   "description": "A standard schema for representing End-of-Life (EOL) and End-of-Support (EOS) information",
   "type": "object",
@@ -27,7 +27,7 @@
       "title": "EOL and EOS schema",
       "description": "Specifies the schema the JSON object must be valid against.",
       "type": "string",
-      "enum": ["https://openplf.org/schema-0.2.0.json"]
+      "enum": ["https://openeox.org/schema-0.2.0.json"]
     }
   },
   "required": ["$schema", "supplierId", "supplierName", "productId", "productName", "productVersion", "EOLDate"],
