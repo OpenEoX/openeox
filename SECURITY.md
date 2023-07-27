@@ -2,7 +2,7 @@
 
 ## Reporting a Vulnerability
 
-If you believe you have found a vulnerability in this repository, please report it to the maintainers by sending an email to security@openplf.org. Please do not file a public issue or pull request, as this could put the security of the repository at risk.
+If you believe you have found a vulnerability in this repository, please report it to the maintainers by sending an email to security@openeox.org. Please do not file a public issue or pull request, as this could put the security of the repository at risk.
 
 ## Support
 
