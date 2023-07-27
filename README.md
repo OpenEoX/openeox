@@ -1,4 +1,4 @@
-# Open Product Lifecycle Framework (OPLF)
+# OpenEoX
 This GitHub repository has been created to start the creation of a "standardized" End-of-Life (EOL) and End-of-Support (EOS) machine-readable JSON schema. This schema can serve as a proof-of-concept example to initiate conversations around standardizing the representation of EOL and EOS product information. This is designed to be flexible and can be extended or modified to accommodate the needs of different stakeholders, including software providers, vendors, suppliers, and open-source maintainers.
 
 ## Background Information
@@ -10,7 +10,7 @@ Read the following articles for more information about the overall initiative:
 Below is an example JSON object conforming to the EOL and EOS Product JSON schema:
 ```
 {
-  "$schema": "https://openplf.org/schema-0.2.0.json",
+  "$schema": "https://openeox.org/schema-0.2.0.json",
   "creationTimestamp": "2023-05-02T01:27:00Z"
   "EOLDate": "2023-06-01T23:59:59Z",
   "supplierId": "123456",
